@@ -1,0 +1,18 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.miui.has_cust_partition=true
+ro.secureboot.devicelock=1
+ro.secure=1
+security.perf_harden=1
+ro.adb.secure=1
+ro.allow.mock.location=0
+ro.debuggable=0
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Sun Apr 7 18:56:37 CST 2019
+ro.bootimage.build.date.utc=1554634597
+ro.bootimage.build.fingerprint=xiaomi/ysl/ysl:8.1.0/OPM1.171019.011/V10.3.4.0.OEFCNXM:user/release-keys
+persist.sys.usb.config=none
+
