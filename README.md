@@ -1,0 +1,13 @@
+# ysl-user 9 PKQ1.181203.001 V12.0.4.0.PEFCNXM release-keys
+- manufacturer: xiaomi
+- platform: msm8953
+- codename: ysl
+- flavor: ysl-user
+- release: 9
+- id: PKQ1.181203.001
+- incremental: V12.0.4.0.PEFCNXM
+- tags: release-keys
+- fingerprint: xiaomi/ysl/ysl:9/PKQ1.181203.001/V12.0.4.0.PEFCNXM:user/release-keys
+- brand: xiaomi
+- branch: ysl-user-9-PKQ1.181203.001-V12.0.4.0.PEFCNXM-release-keys
+- repo: xiaomi_ysl_dump

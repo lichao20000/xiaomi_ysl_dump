@@ -1,0 +1,11 @@
+[+] Kernel successfully decompressed in-memory (the offsets that follow will be given relative to the decompressed binary)
+[+] Version string: Linux version 3.18.120-perf-gb12fb2b (builder@c3-miui-ota-bd110.bj) (gcc version 4.8 (GCC) ) #1 SMP PREEMPT Wed Jul 29 21:45:22 CST 2020
+[+] Guessed architecture: armle successfully in 3.68 seconds
+Traceback (most recent call last):
+  File "/home/tushar9915/dumpyara/vmlinux-to-elf/vmlinux_to_elf/kallsyms_finder.py", line 1096, in <module>
+    kallsyms = KallsymsFinder(obtain_raw_kernel_from_file(kernel_bin.read()), args.bit_size)
+  File "/home/tushar9915/dumpyara/vmlinux-to-elf/vmlinux_to_elf/kallsyms_finder.py", line 193, in __init__
+    self.find_kallsyms_token_table()
+  File "/home/tushar9915/dumpyara/vmlinux-to-elf/vmlinux_to_elf/kallsyms_finder.py", line 409, in find_kallsyms_token_table
+    raise ValueError('%d candidates for kallsyms_token_table in kernel image' % len(candidates_offsets))
+ValueError: 2 candidates for kallsyms_token_table in kernel image
